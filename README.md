@@ -1,18 +1,19 @@
 # Trustless Agents (ERC-8004) Casual Hackathon
 
-**Decentralized AI Agents** are becoming one of the most transformative topics in the Ethereum ecosystem. The introduction of **ERC-8004** marks a pragmatic and visionary step forward in this domain.
+**Decentralized and Trustless AI Agents** are reshaping the Ethereum ecosystem, with **ERC-8004** at the core.
 
-We believe that meaningful innovation doesn't always come from boardrooms or conference stages — it often starts with a late-night hack or a sudden spark in your code editor.
+This virtual **Casual Hackathon** runs from **Oct 30 to Nov 5**, featuring brainstorming, team matching, workshops, AMAs, an open day, and a demo day. Feel free to register in advance! Bring your ideas, code, and creativity to build the next wave of decentralized AI agents.
 
-Bring your creativity, code, and maybe a cup of iced coffee — and help shape the next chapter of Decentralized AI Agents.
+This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO](https://x.com/LXDAO_Official) and [ETHPanda](https://x.com/ETHPanda_Org), with special support from the EF dAI team. Community -> <https://t.me/ERC8004>
 
 
 ## ⏰ Program Timeline
 
 | Event           | Time                  | Format    | Recap                |
 | --------------- | --------------------- | --------- | ------------------------------ |
-| **Open Day**  | Oct 30, 08:00 (UTC+8) | Online | [Play ▶️](https://example.com/) |
-| **Demo Day** | Nov 5, 20:00 (UTC+8) | Online |   [Play ▶️](https://example.com/)  |
+| **Workshop**  | TODO | Online | |
+| **Open Day**  | TODO | Online | |
+| **Demo Day** | TODO | Online | |
 
 
 ## 📝 Registration
@@ -26,8 +27,7 @@ Bring your creativity, code, and maybe a cup of iced coffee — and help shape t
 <!-- Registration start -->
 | Name | Description | Contact | Team Willingness | Operate |
 | ---- | ----------- | ------- | ---------------- | ------- |
-| alice2 | alice desc test | tg:aliceaaa | No | [Edit](https://github.com/CasualHackathon/TrustlessAgents/issues/new?title=Registration%20-%20alice2&body=%23%23%20Registration%20Form%0A%0A%3E%20%F0%9F%93%9D%20**Please%20fill%20in%20the%20content%20after%20%22%3E%22**%0A%0A**Name**%20(Please%20enter%20your%20full%20name%20%7C%20Required)%0A%3Ealice2%0A%0A**Description**%20(Brief%20personal%20introduction%20including%20skills%20and%20experience%20%7C%20Required)%0A%3Ealice%20desc%20test%0A%0A**Contact**%20(Format%3A%20Contact%20Method%3A%20Contact%20Account%2C%20e.g.%2C%20Telegram%3A%20%40username%2C%20WeChat%3A%20username%2C%20Email%3A%20email%40example.com%20%7C%20Required)%0A%3Etg%3Aaliceaaa%0A%0A**Wallet%20Address**%20(Your%20wallet%20address%20or%20ENS%20domain%20on%20Ethereum%20mainnet)%0A%3E0x123123%0A%0A**Team%20Willingness**%20(Choose%20one%3A%20Yes%20%7C%20No%20%7C%20Maybe)%0A%3ENo) |
-| Test | A coder | Telegram: @test | Yes | [Edit](https://github.com/CasualHackathon/TrustlessAgents/issues/new?title=Registration%20-%20Test&body=%23%23%20Registration%20Form%0A%0A%3E%20%F0%9F%93%9D%20**Please%20fill%20in%20the%20content%20after%20%22%3E%22**%0A%0A**Name**%20(Please%20enter%20your%20full%20name%20%7C%20Required)%0A%3ETest%0A%0A**Description**%20(Brief%20personal%20introduction%20including%20skills%20and%20experience%20%7C%20Required)%0A%3EA%20coder%0A%0A**Contact**%20(Format%3A%20Contact%20Method%3A%20Contact%20Account%2C%20e.g.%2C%20Telegram%3A%20%40username%2C%20WeChat%3A%20username%2C%20Email%3A%20email%40example.com%20%7C%20Required)%0A%3ETelegram%3A%20%40test%0A%0A**Wallet%20Address**%20(Your%20wallet%20address%20or%20ENS%20domain%20on%20Ethereum%20mainnet)%0A%3E0x123123123%0A%0A**Team%20Willingness**%20(Choose%20one%3A%20Yes%20%7C%20No%20%7C%20Maybe)%0A%3EYes) |
+
 
 <!-- Registration end -->
 
@@ -46,7 +46,6 @@ Bring your creativity, code, and maybe a cup of iced coffee — and help shape t
 <!-- Submission start -->
 | Project | Description | Members | Leader | Repository | Operate |
 | ----------- | ----------------- | -------------- | ------- | ---------- | -------- |
-| test pro | test pro desc | alice,bob | alice | [🔗](https://github.com/CasualHackathon/TrustlessAgents) | [Edit](https://github.com/CasualHackathon/TrustlessAgents/issues/new?title=Submission%20-%20test%20pro&body=%23%23%20Project%20Submission%20Form%0A%0A%3E%20%F0%9F%93%9D%20**Please%20fill%20in%20the%20content%20after%20%22%3E%22**%0A%0A**Project%20Name**%20(Enter%20your%20project%20name%20%7C%20Required)%0A%3Etest%20pro%0A%0A**Project%20Description**%20(Brief%20description%20about%20your%20project%20in%20one%20sentence%20%7C%20Required)%0A%3Etest%20pro%20desc%0A%0A**Project%20Leader**%20(Project%20leader%20name%20%7C%20Required)%0A%3Ealice%0A%0A**Project%20Members**%20(List%20all%20team%20members%2C%20comma-separated)%0A%3Ealice%2Cbob%0A%0A**Repository%20URL**%20(Open%20source%20repository%20URL%20-%20project%20must%20be%20open%20source)%0A%3Ehttps%3A%2F%2Fgithub.com%2FCasualHackathon%2FTrustlessAgents%0A%0A**Team%20Members%20Wallet**%20(List%20all%20team%20members%20wallet%2C%20comma-separated%20e.g.%2C%20Alice%3A0x12345...%20%2C%20Bob%3A0x12345...)%0A%3Ealice%3A0x1111%2C%20bob%3A0x222) |
 
 <!-- Submission end -->
 
@@ -54,22 +53,9 @@ Bring your creativity, code, and maybe a cup of iced coffee — and help shape t
 ## ⏰ Program Timeline
 
 - **Casual Hackathon**: Oct 30 - Nov 5, 2025. Hands-on implementation and creative exploration
-- **Demo Day**: Nov 5, 2025. Submit on GitHub, live show, fun prizes
+- **Demo Day**: Nov 5, 2025. Time TBD. Submit on GitHub, live show, fun prizes
 
-Stay up to date by joining our Telegram group: https://t.me/ERC8004.
-
-## 🌿 What is Casual Hackathon?
-
-Low-cost, casual hackathons that let anyone revel in the pure joy of creating — and spark real innovation in return. Casual Hackathon is an open-source public good initated by LXDAO.
-
-### ✨ Core Principles
-
-- **Lightweight operation**: Online-first, casual participation, no pressure — extremely low operational overhead.
-- **Open-source public good**: Fully open-source with no patent restrictions; any group can adopt or fork it.
-- **De-commercialized**: No mandatory prize pools or sponsor KPIs — bounty hunters stay away, creativity comes first.
-- **Relaxed participation**: No forced all-nighters or on-site attendance; health and enjoyment matter.
-- **Everyone wins**: Mentors present a unique award to every project, giving all ideas their moment.
-- **Curated themes**: Carefully curated prompts that spark imagination and encourage playful, cutting-edge development
+Stay up to date by joining Telegram group: <https://t.me/ERC8004>.
 
 ## 👨‍💻 Who Should Join?
 
@@ -81,20 +67,19 @@ This isn't a bootcamp for beginners — it's a high-bar, low-ego program designe
 - **AI Startups**: Share projects and insights with the community and foundations — and connect with peers
 - **Motivated Learners**: Dive into the frontier of AI × ETH
 
-If you're ready to:
+If you’re ready to:
 
-- Dive deep into ERC-8004 and build production-ready apps around it.
-- Turn abstract concepts into working code that showcases the latest Ethereum features.
+* Dive into **ERC-8004** and build MVPs around it.
+* Turn ideas into working code using the latest Ethereum features.
+* Have fun and create something cool.
 
 **This hackathon is for you.**
 
 ## 🎁 Awards and Prizes
 
-The greatest reward is the knowledge you gain — and the chance to meet like-minded builders through their shared notes.
-
-Outstanding builders may be invited to demo on stage at **Devconnect Trustless Agent Day on Nov 21**.
-
-More benefits will be announced with partners — stay active and complete your daily check-ins!
+- The greatest reward is the knowledge you gain — and the chance to meet like-minded builders through their shared notes.
+- Outstanding builders may be invited to demo on stage at **Devconnect Trustless Agent Day on Nov 21**.
+- More benefits will be announced with partners!
 
 ### 🚀 Project Examples
 
@@ -136,47 +121,11 @@ This isn't just a fix — it's a new design space for AI agents, dApps, security
 - Ethereum core devs / researchers
 - AI/ML experts, security researchers
 
-<table>
-    <tr>
-         <td  align="center" valign="middle" width="120">
-            <img src="https://pbs.twimg.com/profile_images/1906994546455822336/OEoYVc1W_400x400.jpg" alt="brucexu_eth" width="50" />
-            Bruce Xu
-        </td>
-        <td>
-             <a href="https://x.com/brucexu_eth" target="_blank">@brucexu_eth</a>
-        </td>
-        <td>
-             ETH x AI | Ethernaut | Cypherpunk-aligned | INTJ | Co-initiator @LXDAO_Official @ethpanda_org | 面向酷炫工作
-        </td>
-    </tr>
-    
-</table>
+TODO WIP
 
 **🌟 Guests**
 
-
-<table>
-    <tr>
-         <td  align="center" valign="middle"  width="120">
-            <img src="https://pbs.twimg.com/profile_images/1097527657766535168/lmQ95bkh_400x400.jpg" alt="brucexu_eth" width="50" />
-            Adam Fuller
-        </td>
-        <td>
-             <a href="https://x.com/azacharyf" target="_blank">@azacharyf</a>
-        </td>
-        <td>
-             Product Manager and developer, worked on USDC, The Graph, Scaffold Eth, BuildlGuidl and others. Currently focusing on emerging Ethereum UX and apps
-        </td>
-    </tr>
-</table>
-
-
-## 👥 Participants
-
-| Name | Role | Team Status | Project Name | Project Description | Contact |
-|------|------|-------------|--------------|----------------------|---------|
-| [BiscuitCoder](./registration/BiscuitCoder.md) | Developer | Looking for teammates | Trustless Data Marketplace | A decentralized data marketplace powered by ERC-8004 for AI agents | @BiscuitCoder (Telegram) |
-| [mrnewliu-gif](./registration/mrnewliu-gif.md) | Full-stack Developer | Solo participation | Agent Task Automation | Automated task execution system using A2A protocol | @mrnewliu (Telegram) |
+TODO WIP
 
 ## 📚 Resources
 
@@ -184,13 +133,13 @@ This isn't just a fix — it's a new design space for AI agents, dApps, security
 - [Articles](./docs/articles.md)
 - [Examples](./docs/examples/README.md)
 
-### Core Documentation
+### Additional Resources
+
+- [Trustless Agents (ERC-8004) Intensive Co-Learning](https://intensivecolearn.ing/en/programs/trustless-agents)
 - [ERC-8004 EIP](https://eips.ethereum.org/EIPS/eip-8004)
 - [ERC-8004 Discussion](https://ethereum-magicians.org/t/erc-8004-trustless-agents/25098)
 - [A2A Protocol](https://a2a-protocol.org/latest/)
 - [x402 Protocol](https://x402.gitbook.io/x402)
-
-### Additional Resources
 - [ERC-8004 QA Bot](https://chatgpt.com/g/g-68da14310f6c81918d088bd729edefce-erc-8004-qa)
 - [A2A GitHub](https://github.com/a2aproject/A2A)
 - [x402 Whitepaper](https://www.x402.org/x402-whitepaper.pdf)
@@ -210,9 +159,16 @@ This isn't just a fix — it's a new design space for AI agents, dApps, security
                 <img src="./materials/images/ETHPanda.png" alt="ETHPanda" width="130" />
             </a>
         </td>
+    </tr>
+</table>
+
+## 🤝 Special Supporter
+
+<table>
+    <tr>
         <td align="center" valign="middle">
-            <a href="https://dai.team/" target="_blank">
-                <div style="width: 130px; height: 130px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 10px; font-weight: bold;">dAI team</div>
+            <a href="https://t.me/ERC8004" target="_blank">
+                <img src="./images/dAI.png" alt="EF dAI Team" width="130" />
             </a>
         </td>
     </tr>
@@ -220,35 +176,44 @@ This isn't just a fix — it's a new design space for AI agents, dApps, security
 
 ## 💰 Sponsors
 
-### 🛡️ Security Partner
-**SlowMist**: A blockchain security firm specializing in smart contract audits, on-chain tracking, and threat intelligence. [X (Twitter)](https://x.com/SlowMist_Team) | [Website](https://slowmist.com/)
+<table>
+    <tr>
+        <td align="center" valign="middle">
+            <a href="https://slowmist.com/" target="_blank">
+                <img src="./images/SlowMist.png" alt="SlowMist" width="130" />
+            </a>
+        </td>
+    </tr>
+</table>
 
-### 🌟 Community Supporters
-**BuidlGuidl**: A curated group of Ethereum builders creating products, prototypes, and tutorials to enrich the web3 ecosystem. [X (Twitter)](https://x.com/buidlguidl) | [Website](https://buidlguidl.com/)
+## 🌟 Community Supporters
 
-**🎯 Seeking More Sponsorship Support**
+<table>
+    <tr>
+        <td align="center" valign="middle">
+            <a href="https://buidlguidl.com/" target="_blank">
+                <img src="./images/buidlguidl.png" alt="buidlguidl" width="130" />
+            </a>
+        </td>
+    </tr>
+</table>
 
-We are actively seeking additional sponsorship support for this intensive learning program! Your sponsorship will help us:
+## 🎯 Seeking More Partnerships
 
-- **Enhanced Learning Resources**: Provide cutting-edge tools and infrastructure for participants
-- **Project Development Support**: Fund outstanding project development and showcase opportunities  
-- **Community Growth**: Expand program reach to benefit more developers in decentralized AI agent technology
-- **Ecosystem Building**: Foster innovation in the trustless agent space
+More sponsors and supporters are on the way! If you wish to support, please dm [@brucexu_eth](https://t.me/brucexu_eth). We welcome all forms of sponsorship and partnership!
 
-**🤝 Sponsorship Opportunities:**
-- **Financial Support**: Direct funding for program operations and participant rewards
-- **Technical Resources**: AI credits, compute resources, and development tools
-- **Infrastructure**: Cloud services, development environments, and testing platforms
-- **Community Promotion**: Marketing support and ecosystem outreach
-- **Mentorship**: Technical expertise and industry guidance
-- **Other Collaborations**: We welcome all forms of partnership and support
+## 🌿 What is Casual Hackathon?
 
-**📞 Contact for Sponsorship:**
-- **Telegram**: [@brucexu_eth](https://t.me/brucexu_eth)
-- **We welcome all forms of sponsorship and partnership!**
+Low-cost, casual hackathons that let anyone revel in the pure joy of creating — and spark real innovation in return. Casual Hackathon is an open-source public good initated by [LXDAO](https://forum.lxdao.io/t/the-introduction-of-casual-hackathon/2827).
 
-## 📞 Contact
+### ✨ Core Principles
 
-- **ETHPanda Website**: https://ethpanda.org/
-- **Telegram Group**: https://t.me/ERC8004
-- **GitHub Repository**: https://github.com/CasualHackathon/TrustlessAgent
+- **Lightweight operation**: Online-first, casual participation, no pressure — extremely low operational overhead.
+- **Open-source public good**: Fully open-source with no patent restrictions; any group can adopt or fork it.
+- **De-commercialized**: No mandatory prize pools or sponsor KPIs — bounty hunters stay away, creativity comes first.
+- **Relaxed participation**: No forced all-nighters or on-site attendance; health and enjoyment matter.
+- **Everyone wins**: Mentors present a unique award to every project, giving all ideas their moment.
+- **Curated themes**: Carefully curated prompts that spark imagination and encourage playful, cutting-edge development
+
+---
+Have fun!
