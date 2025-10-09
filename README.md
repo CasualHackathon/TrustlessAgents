@@ -45,6 +45,9 @@ Bring your creativity, code, and maybe a cup of iced coffee — and help shape t
 - Note: Please do not modify other people's information.
 
 <!-- Submission start -->
+| Project | Description | Members | Leader | Repository | Operate |
+| ----------- | ----------------- | -------------- | ------- | ---------- | -------- |
+| test pro | test pro desc | alice,bob | alice | [🔗](https://github.com/CasualHackathon/TrustlessAgents) | [Edit](https://github.com/CasualHackathon/TrustlessAgents/issues/new?title=Submission%20-%20test%20pro&body=%23%23%20Project%20Submission%20Form%0A%0A%3E%20%F0%9F%93%9D%20**Please%20fill%20in%20the%20content%20after%20%22%3E%22**%0A%0A**Project%20Name**%20(Enter%20your%20project%20name%20%7C%20Required)%0A%3Etest%20pro%0A%0A**Project%20Description**%20(Brief%20description%20about%20your%20project%20in%20one%20sentence%20%7C%20Required)%0A%3Etest%20pro%20desc%0A%0A**Project%20Leader**%20(Project%20leader%20name%20%7C%20Required)%0A%3Ealice%0A%0A**Project%20Members**%20(List%20all%20team%20members%2C%20comma-separated)%0A%3Ealice%2Cbob%0A%0A**Repository%20URL**%20(Open%20source%20repository%20URL%20-%20project%20must%20be%20open%20source)%0A%3Ehttps%3A%2F%2Fgithub.com%2FCasualHackathon%2FTrustlessAgents%0A%0A**Team%20Members%20Wallet**%20(List%20all%20team%20members%20wallet%2C%20comma-separated%20e.g.%2C%20Alice%3A0x12345...%20%2C%20Bob%3A0x12345...)%0A%3Ealice%3A0x1111%2C%20bob%3A0x222) |
 
 <!-- Submission end -->
 
