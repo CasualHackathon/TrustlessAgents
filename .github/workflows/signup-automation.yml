@@ -1,0 +1,175 @@
+name: Signup Issue Automation
+
+on:
+  issues:
+    types: [opened, closed, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: hackathon-automation-global
+  cancel-in-progress: false
+
+jobs:
+  process-signup:
+    runs-on: ubuntu-latest
+    if: |
+      (github.event.action == 'opened' && startsWith(github.event.issue.title, 'Registration')) ||
+      (github.event.action == 'closed' && github.event.issue.state_reason == 'completed' && startsWith(github.event.issue.title, 'Registration') && github.actor != 'github-actions[bot]') ||
+      (github.event.action == 'edited' && startsWith(github.event.issue.title, 'Registration'))
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract Signup Info, Create Registration File and Update Table
+        id: extract-signup
+        # Key: Allow step to continue after failure (otherwise error handling step will be skipped)
+        continue-on-error: true
+        run: |
+          # Execute script and capture output
+          SCRIPT_OUTPUT=$(node materials/scripts/signup_extract.js 2>&1)
+          SCRIPT_EXIT_CODE=$?
+          
+          echo "Script output:"
+          echo "$SCRIPT_OUTPUT"
+          echo "Exit code: $SCRIPT_EXIT_CODE"
+          
+          # Check if script already set script_success (new behavior)
+          if grep -q "script_success=" $GITHUB_OUTPUT; then
+            echo "✅ Script already set script_success value"
+            SCRIPT_SUCCESS_VALUE=$(grep "script_success=" $GITHUB_OUTPUT | cut -d'=' -f2)
+            if [ "$SCRIPT_SUCCESS_VALUE" = "true" ]; then
+              echo "✅ Script executed successfully"
+            else
+              echo "❌ Script execution failed"
+            fi
+          else
+            # Fallback: set script_success based on exit code (legacy behavior)
+            if [ $SCRIPT_EXIT_CODE -eq 0 ]; then
+              echo "script_success=true" >> $GITHUB_OUTPUT
+              echo "✅ Script executed successfully (fallback)"
+            else
+              echo "script_success=false" >> $GITHUB_OUTPUT
+              echo "❌ Script execution failed (fallback)"
+            fi
+          fi
+          
+          # Handle error message extraction for cases where script didn't set it
+          if [ $SCRIPT_EXIT_CODE -ne 0 ] && ! grep -q "error_message<<EOF" $GITHUB_OUTPUT; then
+            # Extract error message using multiline format
+            if echo "$SCRIPT_OUTPUT" | grep -q "ERROR_MESSAGE:"; then
+              ERROR_MSG=$(echo "$SCRIPT_OUTPUT" | sed -n 's/ERROR_MESSAGE: //p')
+              echo "error_message<<EOF" >> $GITHUB_OUTPUT
+              echo "$ERROR_MSG" >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+            else
+              echo "error_message<<EOF" >> $GITHUB_OUTPUT
+              echo "❌ **Processing Failed**" >> $GITHUB_OUTPUT
+              echo "" >> $GITHUB_OUTPUT
+              echo "An unknown error occurred during processing. Please check if the submission format is correct." >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+            fi
+          fi
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          GITHUB_OUTPUT: ${{ github.output }}
+
+      - name: Debug Output Values
+        run: |
+          echo "script_success value: '${{ steps.extract-signup.outputs.script_success }}'"
+          echo "error_message value: '${{ steps.extract-signup.outputs.error_message }}'"
+          echo "Condition check: ${{ steps.extract-signup.outputs.script_success == 'false' }}"
+
+      - name: Handle Script Errors
+        # Key: Only execute when extract-signup step outputs script_success as false
+        if: steps.extract-signup.outputs.script_success == 'false'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.issue.number;
+            // Get error message from extract-signup step output (use default if not available)
+            const errorMessage = `${{ steps.extract-signup.outputs.error_message }}` || '❌ **Processing Failed**\n\nAn unknown error occurred during processing. Please check if the submission format is correct.';
+            
+            // Add error comment to Issue
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: errorMessage
+            });
+            
+            console.log(`❌ Error reported to user via comment: Issue #${issue_number}`);
+            // Mark entire job as failed (expected state for error scenario)
+            core.setFailed(errorMessage);
+
+      - name: Commit & Push Changes
+        # Only commit code when script execution is successful
+        if: steps.extract-signup.outputs.script_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          
+          # Pull latest code but preserve local changes
+          git fetch origin main
+          git merge origin/main --no-edit || true
+          
+          git add .
+          # Only commit when there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add registration for ${{ github.event.issue.user.login }}"
+            git push origin HEAD:main
+            echo "✅ Registration information successfully committed"
+          fi
+
+      - name: Comment and close issue
+        # Only add success comment and close Issue when script execution is successful
+        if: steps.extract-signup.outputs.script_success == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.issue.number;
+            const user = context.payload.issue.user.login;
+
+            try {
+              // Set comment type based on trigger action (Auto/Edit/Manual)
+              let actionType = 'Manual';
+              if (context.payload.action === 'opened') actionType = 'Auto';
+              else if (context.payload.action === 'edited') actionType = 'Edit';
+              
+              // Add success comment
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body: `✅ Registration processed successfully! (${actionType})`
+              });
+              
+              // Close Issue when auto-triggered or edited
+              if (context.payload.action === 'opened' || context.payload.action === 'edited') {
+                await github.rest.issues.update({
+                  owner,
+                  repo,
+                  issue_number,
+                  state: 'closed',
+                  state_reason: 'completed'
+                });
+              }
+              
+              console.log(`✅ Issue #${issue_number} processed and closed successfully`);
+            } catch (error) {
+              console.error(`Error processing issue: ${error.message}`);
+              core.setFailed(`Error processing issue: ${error.message}`);
+            }
