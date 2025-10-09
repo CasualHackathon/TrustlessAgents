@@ -168,7 +168,7 @@ TODO WIP
     <tr>
         <td align="center" valign="middle">
             <a href="https://t.me/ERC8004" target="_blank">
-                <img src="./images/dAI.png" alt="EF dAI Team" width="130" />
+                <img src="./materials/images/dAI.png" alt="EF dAI Team" width="130" />
             </a>
         </td>
     </tr>
@@ -180,7 +180,7 @@ TODO WIP
     <tr>
         <td align="center" valign="middle">
             <a href="https://slowmist.com/" target="_blank">
-                <img src="./images/SlowMist.png" alt="SlowMist" width="130" />
+                <img src="./materials/images/SlowMist.png" alt="SlowMist" width="130" />
             </a>
         </td>
     </tr>
@@ -192,7 +192,7 @@ TODO WIP
     <tr>
         <td align="center" valign="middle">
             <a href="https://buidlguidl.com/" target="_blank">
-                <img src="./images/buidlguidl.png" alt="buidlguidl" width="130" />
+                <img src="./materials/images/buidlguidl.png" alt="buidlguidl" width="130" />
             </a>
         </td>
     </tr>
