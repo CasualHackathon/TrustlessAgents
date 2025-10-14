@@ -27,7 +27,7 @@ This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO
 <!-- Registration start -->
 | Name | Description | Contact | Team Willingness | Operate |
 | ---- | ----------- | ------- | ---------------- | ------- |
-
+| xfajarr | A web3 developer who focuses on smart contracts, currently building on EVM and Sui. | Telegram: @xfajarrr | Maybe | [Edit](https://github.com/CasualHackathon/TrustlessAgents/issues/new?title=Registration%20-%20xfajarr&body=%23%23%20Registration%20Form%0A%0A%3E%20%F0%9F%93%9D%20**Please%20fill%20in%20the%20content%20after%20%22%3E%22**%0A%0A**Name**%20(Please%20enter%20your%20full%20name%20%7C%20Required)%0A%3E%20xfajarr%0A%0A**Description**%20(Brief%20personal%20introduction%20including%20skills%20and%20experience%20%7C%20Required)%0A%3E%20A%20web3%20developer%20who%20focuses%20on%20smart%20contracts%2C%20currently%20building%20on%20EVM%20and%20Sui.%0A%0A**Contact**%20(Format%3A%20Contact%20Method%3A%20Contact%20Account%2C%20e.g.%2C%20Telegram%3A%20%40username%2C%20WeChat%3A%20username%2C%20Email%3A%20email%40example.com%20%7C%20Required)%0A%3E%20Telegram%3A%20%40xfajarrr%0A%0A**Wallet%20Address**%20(Your%20wallet%20address%20or%20ENS%20domain%20on%20Ethereum%20mainnet)%0A%3E%20xfajarr.eth%0A%0A**Team%20Willingness**%20(Choose%20one%3A%20Yes%20%7C%20No%20%7C%20Maybe)%0A%3E%20Maybe) |
 
 <!-- Registration end -->
 
