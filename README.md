@@ -179,6 +179,11 @@ TODO WIP
 <table>
     <tr>
         <td align="center" valign="middle">
+            <a href="https://x.com/Unibase_AI" target="_blank">
+                <img src="./materials/images/unibase.png" alt="Unibase" width="130" />
+            </a>
+        </td>
+        <td align="center" valign="middle">
             <a href="https://slowmist.com/" target="_blank">
                 <img src="./materials/images/SlowMist.png" alt="SlowMist" width="130" />
             </a>
