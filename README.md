@@ -200,6 +200,11 @@ TODO WIP
                 <img src="./materials/images/buidlguidl.png" alt="buidlguidl" width="130" />
             </a>
         </td>
+        <td align="center" valign="middle">
+            <a href="https://x.com/Ch40sChain" target="_blank">
+                <img src="./materials/images/chaoschain.png" alt="buidlguidl" width="130" />
+            </a>
+        </td>
     </tr>
 </table>
 
