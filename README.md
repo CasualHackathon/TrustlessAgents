@@ -12,8 +12,8 @@ This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO
 | Event           | Time                  | Format    | Recap                |
 | --------------- | --------------------- | --------- | ------------------------------ |
 | **Workshop**  | TODO | Online | |
-| **Open Day**  | TODO | Online | |
-| **Demo Day** | TODO | Online | |
+| **Open Day**  | Nov. 2, 5:30 PM UTC+8 | Online | |
+| **Demo Day** | Nov. 9, 5:30 PM UTC+8 | Online | |
 
 
 ## 📝 Registration
