@@ -2,9 +2,9 @@
 
 **Decentralized and Trustless AI Agents** are reshaping the Ethereum ecosystem, with **ERC-8004** at the core.
 
-This virtual **Casual Hackathon** runs from **Oct 30 to Nov 5**, featuring brainstorming, team matching, workshops, AMAs, an open day, and a demo day. Feel free to register in advance! Bring your ideas, code, and creativity to build the next wave of decentralized AI agents.
+This virtual **Casual Hackathon** runs from **Oct 27 – Nov 9**, featuring brainstorming, team matching, workshops, AMAs, an open day, and a demo day. Feel free to register in advance! Bring your ideas, code, and creativity to build the next wave of decentralized AI agents.
 
-This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO](https://x.com/LXDAO_Official) and [ETHPanda](https://x.com/ETHPanda_Org), with special support from the EF dAI team. Community -> <https://t.me/ERC8004>
+This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO](https://x.com/LXDAO_Official) and [ETHPanda](https://x.com/ETHPanda_Org), with special support from the EF dAI team. Community -> <https://t.me/Trustless_Agents_ERC_8004_CH>
 
 
 ## ⏰ Program Timeline
@@ -53,10 +53,10 @@ This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO
 
 ## ⏰ Program Timeline
 
-- **Casual Hackathon**: Oct 30 - Nov 5, 2025. Hands-on implementation and creative exploration
-- **Demo Day**: Nov 5, 2025. Time TBD. Submit on GitHub, live show, fun prizes
+- **Casual Hackathon**: Oct 27 – Nov 9. Hands-on implementation and creative exploration
+- **Demo Day**: Nov 9, 2025. Time TBD. Submit on GitHub, live show, fun prizes
 
-Stay up to date by joining Telegram group: <https://t.me/ERC8004>.
+Stay up to date by joining Telegram group: <https://t.me/Trustless_Agents_ERC_8004_CH>.
 
 ## 👨‍💻 Who Should Join?
 
