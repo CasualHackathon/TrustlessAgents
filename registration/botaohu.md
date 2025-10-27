@@ -3,10 +3,10 @@
 > 📝 **Please fill in the content after ">"**
 
 **Name** (Please enter your full name | Required)
-> Botao Amber Hu
+> [Botao Amber Hu](https://botao.hu)
 
 **Description** (Brief personal introduction including skills and experience | Required)
-> DPhil in Oxford. Research Interest: Artificial Life, Decentralized AI and Trustless Autonomy. See more: https://botao.hu  Some paper: https://arxiv.org/abs/2506.04236
+> CS PhD in Oxford. Previously: Researcher from Summer of Protocols (Ethereum Foundation). Research Interest: [Artificial Life](https://arxiv.org/abs/2506.04236), [Decentralized AI](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5110089) and [Trustless Autonomy](https://www.arxiv.org/abs/2505.09757). 
 
 **Contact** (Format: Contact Method: Contact Account, e.g., Telegram: @username, WeChat: username, Email: email@example.com | Required)
 > telegram: @botaohu  email: amber@reality.design (preferred) 
@@ -15,4 +15,4 @@
 > bah.eth
 
 **Team Willingness** (Choose one: Yes | No | Maybe)
-> Yes. 
+> Yes. I am a researcher and designer with theories and insights for Trustless Agent. I am looking for an engineer to help. 
