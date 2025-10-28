@@ -6,7 +6,7 @@
 > Joanne Chen
 
 **Description** 
-> Smart contract & backend engineer with 3+ years of experience in Web3 development, specializing in Solidity, TypeScript, and Golang.
+> Smart contract & backend engineer with 3+ years of experience in Web3 development, familiar with Solidity, TypeScript, and Golang.
 
 **Contact** 
 > Email: joanne860422@gmail.com Telegram: @joanne_ej_chen
