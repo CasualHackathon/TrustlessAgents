@@ -9,7 +9,7 @@
 >test desc text
 
 **Repository URL** (Open source repository URL - project must be open source)
->
+>https://github.com/CasualHackathon/TrustlessAgents
 
 **Project Leader** (Project leader name | Required)
 >keylen
