@@ -63,13 +63,13 @@ ${generateFieldWithRequired(FIELD_NAMES.SUBMISSION.PROJECT_NAME, 'Enter your pro
 ${generateFieldWithRequired(FIELD_NAMES.SUBMISSION.PROJECT_DESCRIPTION, 'Brief description about your project in one sentence', 'SUBMISSION')}
 >
 
+${generateFieldWithRequired(FIELD_NAMES.SUBMISSION.REPOSITORY_URL, 'Open source repository URL - project must be open source', 'SUBMISSION')}
+>
+
 ${generateFieldWithRequired(FIELD_NAMES.SUBMISSION.PROJECT_LEADER, 'Project leader name', 'SUBMISSION')}
 >
 
 ${generateFieldWithRequired(FIELD_NAMES.SUBMISSION.PROJECT_MEMBERS, 'List all team members, comma-separated', 'SUBMISSION')}
->
-
-${generateFieldWithRequired(FIELD_NAMES.SUBMISSION.REPOSITORY_URL, 'Open source repository URL - project must be open source', 'SUBMISSION')}
 >
 
 ${generateFieldWithRequired(FIELD_NAMES.SUBMISSION.TEAM_MEMBERS_WALLET, 'List all team members wallet, comma-separated e.g., Alice:0x12345... , Bob:0x12345...', 'SUBMISSION')}
