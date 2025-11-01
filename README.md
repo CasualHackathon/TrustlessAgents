@@ -12,7 +12,7 @@ This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO
 | Event           | Time                  | Format    | Recap                |
 | --------------- | --------------------- | --------- | ------------------------------ |
 | **Open Day**  | Nov. 2, 5:30 PM UTC+8 | Online [Zoom Meeting Link](https://us06web.zoom.us/j/85189575712?pwd=IzSPtiydYWE2JhBBXdZJmWkGwH74wQ.1) | |
-| **Workshop**  | TBD | Online | |
+| **Workshop**  | TBD | Online | [Workshop Videos](#-workshop-videos) |
 | **Virtual Co-Building hours**  | Every day from 2 PM to 3 PM (UTC+8) | Online [Zoom Meeting Link](https://us06web.zoom.us/j/86925739868?pwd=R7aKJpynR7Iymgo1nHxiiPXhkRMTOA.1) | |
 | **Demo Day** | Nov. 9, 5:30 PM UTC+8 | Online [Zoom Meeting Link](https://us06web.zoom.us/j/87674935176?pwd=iYXaIj6SCZFUOvpNO8KptPFCQytYaB.1) | |
 
@@ -151,6 +151,202 @@ TODO WIP
 - [Idea](./docs/idea.md)
 - [Articles](./docs/articles.md)
 - [Examples](./docs/examples/README.md)
+
+### 🎥 Workshop Videos
+
+- **Ethereum × AI: A Spark of Innovation? Exploring Trustless Agents with the Author of ERC-8004**
+  - [YouTube](https://youtu.be/Uu9NaCnSZoE?si=Ud9v4JToXI_1gqYO)
+  - [Bilibili](https://www.bilibili.com/video/BV1ChWkzvEdf/)
+
+- **Unlocking the Core of AI Agent Memory: How Unibase Empowers the ERC-8004 Trust Framework**
+  - [YouTube](https://youtu.be/DwvZHa-xNRc?si=Y3Ylg-UQV0qlkTND)
+  - [Bilibili](https://www.bilibili.com/video/BV1JhsyzTEaV/?spm_id_from=333.1387.homepage.video_card.click)
+
+### 📖 Learning Materials
+
+**Recommended 14 days learning plans**: [Trustless Agents CoLearning 14 daily learning plans](https://lxdao.notion.site/Trustless-Agents-CoLearning-14-daily-learning-plans-28cdceffe40b807590bfdbf7ccd356ae)
+
+#### Module 1: The Trust Foundation — ERC-8004 Identity & Reputation Layer
+
+In-depth analysis of the ERC-8004 standard: Identity Registry, Reputation Registry, and Verification Registry.
+
+**Hands-on**: Create an on-chain identity for your agent and implement a simple off-chain reputation feedback mechanism.
+
+**Resources:**
+- [EIP-8004 Official Standard](https://eips.ethereum.org/EIPS/eip-8004)
+- [Ethereum Magicians - ERC-8004 Discussion](https://ethereum-magicians.org/t/erc-8004-trustless-agents/25098)
+- [ChatGPT Bot - ERC-8004 Q&A](https://chatgpt.com/g/g-68da14310f6c81918d088bd729edefce-erc-8004-qa)
+- [Quill Audits - ERC-8004 Analysis](https://www.quillaudits.com/blog/smart-contract/erc-8004)
+- [Medium - ERC-8004 Story & Next Steps](https://medium.com/survival-tech/the-story-behind-erc-8004-next-steps-ec46c18d1879)
+- [Vistara Apps - ERC-8004 Example](https://github.com/vistara-apps/erc-8004-example)
+- [HashKey Capital - ERC-8004 & Agent Economy](https://medium.com/hashkey-capital-insights/erc-8004-and-the-agent-economy-a9b9eee9fa8d)
+- [awesome-erc8004 from Sudeep Biswas](https://github.com/sudeepb02/awesome-erc8004)
+
+#### Module 2: The Collaboration Language — A2A Architecture & AP2 Protocol
+
+Master how agents autonomously discover and communicate via the Agent-to-Agent (A2A) architecture.
+
+Decode the AP2 protocol: Understand agent descriptor files, capability declarations, and interaction flows.
+
+**Hands-on**: Enable your agent to discover other agents and initiate collaboration requests.
+
+**Resources:**
+- [A2A Protocol Official Site](https://a2a-protocol.org/latest/)
+- Google Dev Blog - A2A Protocol Announcement
+- [A2A Project - Core Repository](https://github.com/a2aproject/A2A)
+- Pydantic AI - A2A Documentation
+- IBM Think - A2A Protocol Guide
+- A2A Project - Sample Code
+- [Awesome A2A Agents - Curated List](https://github.com/isekOS/awesome-a2a-agents)
+- ISEK - Decentralized Agent Network
+- ISEK Platform - Official Website
+
+#### Module 3: The Value Engine — x402 Payment Protocol
+
+Dissect how the x402 protocol utilizes the HTTP 402 status code to enable "gasless" micro-payments.
+
+Integrate EIP-3009 to achieve automated settlement for agent services and resource access control.
+
+**Hands-on**: Integrate x402 payment functionality into your agent service, enabling "pay-per-call".
+
+**Resources:**
+- [X402 Protocol - Official Website](https://x402.gitbook.io/x402)
+- [X402 Protocol - GitBook Documentation](https://x402.gitbook.io/x402)
+- [X402 Protocol - Whitepaper PDF](https://www.x402.org/x402-whitepaper.pdf)
+- Coinbase Developer - X402 Integration
+
+#### Module 4: Capstone Project — Building an Autonomous Agent
+
+Integrate knowledge from the first three modules to build a full-lifecycle Trustless Agent.
+
+Implement the full automated workflow: from identity registration and reputation accumulation to autonomous collaboration and service settlement.
+
+**Project Demo & Code Review**: share your project with the community and get feedback.
+
+**Some Project Examples:**
+- [ERC-8004 Trustless Agents Example](https://github.com/vistara-apps/erc-8004-example)
+- [Arena SDK](https://github.com/vistara-apps/agent-arena-v1) with 8004 identities + A2A + ChaosChain integration for receipt logged on-chain and payment released on verification
+
+Welcome to propose more ideas and examples!
+
+#### 🎯 Learning Challenges & Discussion Questions
+
+**Challenge 1: On-Chain vs Off-Chain Data**
+
+Question: The community debates how much data to put on-chain. If you had to choose between "events only" vs "minimal view functions" vs "full on-chain indexing," which would you pick and why?
+
+**Challenge 2: Agent Identity System**
+
+Question: Should ERC-8004 use domains, URLs, ENS, or DIDs for agent identity? What are the trade-offs of each approach?
+
+**Challenge 3: Reputation Design**
+
+Question: How would you design a reputation system that avoids a single score but still provides useful information for users? Who is eligible to initiate an evaluation?
+
+**Challenge 4: Verification Methods**
+
+Question: Which verification approach would you trust more: TEE proofs, ZK proofs, or sampling/reexecution? Why?
+
+**Challenge 5: Economic Incentives**
+
+Question: Should ERC-8004 include payment mechanisms in the core standard, or keep them as external extensions?
+
+**Challenge 6: Limited Supply**
+
+Question: Should ERC-8004 have a limited supply of agents? Unlimited supply is great for discoverability, but it doesn't allow for creativity and differentiation.
+
+**Resources:**
+- ERC-8041: Fixed-Supply Agent NFT Collections
+- [TG: ERC-8041 Discussion](https://t.me/+DruU9zL6tDQ5OTJh)
+
+Welcome to add more challenges and questions!
+
+#### 💻 Coding Challenges
+
+**Coding Challenge: Interacting with an Agent on the testnet**
+
+**Objective**: Register an agent on the testnet and verify it.
+
+**Build:**
+- Use the 8004 singletons on the testnet:
+  - Sepolia:
+    - Identity: [0x8004a6090Cd10A7288092483047B097295Fb8847](https://sepolia.etherscan.io/address/0x8004a6090Cd10A7288092483047B097295Fb8847)
+    - Reputation: [0x8004B8FD1A363aa02fDC07635C0c5F94f6Af5B7E](https://sepolia.etherscan.io/address/0x8004B8FD1A363aa02fDC07635C0c5F94f6Af5B7E)
+    - Validation: [0x8004CB39f29c09145F24Ad9dDe2A108C1A2cdfC5](https://sepolia.etherscan.io/address/0x8004CB39f29c09145F24Ad9dDe2A108C1A2cdfC5)
+- Use the 8004 SDK to register the agent.
+- Use the 8004 SDK to verify the agent.
+- Use the 8004 SDK to interact with the agent.
+
+**Coding Challenge: Trustless Agent "Hello World"**
+
+**Objective**: Ship a minimal, runnable demo that proves identity, discovery, deterministic service, third-party validation, and optional tokenized pay-per-call.
+
+**Build:**
+
+Three agents:
+- Server provides a simple deterministic service over an input.
+- Validator independently recomputes and records a pass/fail outcome.
+- Client discovers the Server, invokes it, requests validation, then prints final status.
+
+Two tiny registries:
+- Identity links agent identifiers to JSON descriptors (name, version, tags, endpoints, optional price).
+- Verification stores validation outcomes tied to a service receipt.
+
+JSON descriptors for all agents.
+
+**Flow:**
+1. Start a local chain.
+2. Deploy registries and agents.
+3. Register Server and Validator with descriptor URLs.
+4. Client discovers Server by identifier or tag.
+5. Client calls Server and receives a deterministic result plus a receipt reference.
+6. Client asks Validator to verify; Validator records the outcome.
+7. Client prints STATUS: VERIFIED or FAILED.
+
+**Acceptance:**
+- Visible agent addresses, identifiers, and descriptor URLs.
+- Identity entries exist.
+- A receipt reference is produced.
+- A verification record indicates success.
+- Final console line shows STATUS: VERIFIED.
+
+**Optional:**
+- Token pay-per-call.
+- Tag-based discovery.
+- Simple reputation counter on successful validations.
+
+#### 🎮 Testnet and Reference Code
+
+8004 singletons are available on Testnet, so you can start building on it. Clap to Leonard @lentan & all the 8004 contributors for making this happen 🙏👏
+
+**Source code**: [erc-8004-contracts](https://github.com/erc-8004/erc-8004-contracts)
+
+**Sepolia:**
+- Identity: [0x8004a6090Cd10A7288092483047B097295Fb8847](https://sepolia.etherscan.io/address/0x8004a6090Cd10A7288092483047B097295Fb8847)
+- Reputation: [0x8004B8FD1A363aa02fDC07635C0c5F94f6Af5B7E](https://sepolia.etherscan.io/address/0x8004B8FD1A363aa02fDC07635C0c5F94f6Af5B7E)
+- Validation: [0x8004CB39f29c09145F24Ad9dDe2A108C1A2cdfC5](https://sepolia.etherscan.io/address/0x8004CB39f29c09145F24Ad9dDe2A108C1A2cdfC5)
+
+Read the source code and please 🚨test the contracts. We need your feedback🫶 to improve them and prepare for the mainnet release!
+
+Contracts on the testnet are subject to change/update, and the contract keys are directly owned by the 8004 team. If you need the contracts on other testnets/chains, just reach out to @lentan so we can coordinate with the blockchain maintenance teams and publish the addresses here and in the ERC-8004 repo.
+
+#### 🚀 Production
+
+We plan to release on Mainnet by the end of Oct. Ideally, we want to deploy the singletons on every L2 where developers are interested in building. We are also excited about deploying on other EVM-compatible L1s and, potentially, on non-EVM ecosystems.
+
+Production proxy contract governance will be shared by multiple parties (multi-sig) and not controlled by the 8004 team. Please coordinate with Davide Crapis davide.crapis@ethereum.org on this topic.
+
+#### 🛠 Tooling (Community curated)
+
+**JS SDKs:**
+- [ChaosChain SDK](https://github.com/ChaosChain/chaoschain/tree/main/packages/sdk) (thanks @sumeetchougule and ChaosChain!)
+- [erc-8004-js](https://github.com/tetratorus/erc-8004-js)
+
+**Python SDKs:**
+- [erc-8004-py](https://github.com/tetratorus/erc-8004-py)
+- [chaoschain-sdk](https://pypi.org/project/chaoschain-sdk/)
+
+More SDKs and structured docs coming VERY soon.
 
 ### Additional Resources
 
