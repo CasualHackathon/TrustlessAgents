@@ -18,7 +18,7 @@ This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO
 
 ## 🙋 How to operate?
 
-<video src="./materials/images/operation_video.mp4" width="400" height="200" controls></video>
+[](https://github.com/user-attachments/assets/6dc380f4-da7b-4984-a835-612820af4d8a)
 
 
 ## 📝 Registration
