@@ -16,6 +16,10 @@ This is phase 2 of **“Let’s Build Trustless Agents”**, co-hosted by [LXDAO
 | **Virtual Co-Building hours**  | Every day from 2 PM to 3 PM (UTC+8) | Online [Zoom Meeting Link](https://us06web.zoom.us/j/86925739868?pwd=R7aKJpynR7Iymgo1nHxiiPXhkRMTOA.1) | |
 | **Demo Day** | Around Nov 9-11 TBD | Online [Zoom Meeting Link](https://us06web.zoom.us/j/87674935176?pwd=iYXaIj6SCZFUOvpNO8KptPFCQytYaB.1) | |
 
+## 🙋 How to operate?
+
+<video src="./materials/images/operation_video.mp4" width="400" height="200" controls></video>
+
 
 ## 📝 Registration
 
