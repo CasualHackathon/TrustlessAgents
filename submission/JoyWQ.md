@@ -15,7 +15,7 @@
 > Joy Wang
 
 **Repository URL** (Open source repository URL - project must be open source)
-> https://github.com/JoyWQ/synapse-insure
+> https://github.com/JoyWQ/synapse-insure.git
 
 **Team Members Wallet** (List all team members wallet, comma-separated e.g., Alice:0x12345... , Bob:0x12345...)
 > Joy Wang: 0xd3066C388978D0C96372b6E85594d84cC4C37030
