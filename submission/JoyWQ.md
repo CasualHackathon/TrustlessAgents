@@ -6,7 +6,7 @@
 > synapse-insure
 
 **Project Description** (Brief description about your project in one sentence | Required)
-> SAutomated insurance platform for AI agents featuring reputation-based pricing, NLI claim verification, and instant payout processing(No matchmaking currently)
+> Automated insurance platform for AI agents featuring reputation-based pricing, NLI claim verification, and instant payout processing(No matchmaking currently)
 
 **Project Leader** (Project leader name | Required)
 > Joy Wang
