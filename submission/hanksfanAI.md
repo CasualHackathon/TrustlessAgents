@@ -3,13 +3,13 @@
 > 📝 **Please fill in the content after ">"**
 
 **Project Name** (Enter your project name | Required)
->Streaming x402 agent payments
+>Streaming payments for the trustless agent economy
 
 **Project Description** (Brief description about your project in one sentence | Required)
 >Exploring continuous, trustless payments for AI agents using the x402 protocol and ERC-8004 event models.
 
 **Repository URL** (Open source repository URL - project must be open source)
->https://github.com/hanksfanAI/streaming-x402-agent-payments
+>https://github.com/hanksfanAI/Streaming-payments-for-the-trustless-agent-economy
 
 **Project Leader** (Project leader name | Required)
 >Hanks
