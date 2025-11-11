@@ -15,4 +15,4 @@
 >0x2627b9f8f75dbc2870232715520ffaa24248bc76
 
 **Team Willingness** (Choose one: Yes | No | Maybe)
->Maybe
+>Yes
