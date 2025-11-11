@@ -9,7 +9,7 @@
 > Solidity and backend experiences over 5 years
 
 **Contact** (Format: Contact Method: Contact Account, e.g., Telegram: @username, WeChat: username, Email: email@example.com | Required)
-> tg @jason_dev0
+> tg @jason_dev0 email: wjj315315@gmail.com 
 
 **Wallet Address** (Your wallet address or ENS domain on Ethereum mainnet)
 > 0x29e96ea4ff72152dd038146f4022be11b7917a20
